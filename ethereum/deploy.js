@@ -3,7 +3,7 @@ const Web3 = require("web3");
 const compiledFactory = require('./build/MoneyManagerFactory.json');
 
 const provider = new HDWalletProvider(
-    'increase smile giant initial wave dice stock race garage demand ancient nose',
+    //INPUT YOUR METAMASK ACCOUNT PNUEMONIC HERE
     'https://rinkeby.infura.io/v3/dceab68cbbb7476db685a60bcef6f049'
 );
 const web3 = new Web3(provider);
