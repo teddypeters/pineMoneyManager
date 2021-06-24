@@ -49,6 +49,10 @@ contract MoneyManager {
     function getRequestsCount() public view returns(uint){
         return requests.length;
     }
+
+    function getBalance() public view returns(uint){
+        return this.balance;
+    }
     
     
     function createRequest(string description, uint value, address recipient) public{

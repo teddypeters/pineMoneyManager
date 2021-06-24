@@ -22,7 +22,7 @@ class managerNew extends Component{
 
         await factory.methods.createManager().send({
             from: accounts[0],
-            value: this.state.initialContribution
+            value: web3.utils.toWei(this.state.initialContribution, 'ether')
         });
         Router.pushRoute('/');
     } catch(err){
@@ -40,7 +40,7 @@ class managerNew extends Component{
                     <label> Starting Deposit </label>
                     <Input 
                     labelPosition="right" 
-                    label="wei" 
+                    label="ether" 
                     placeholder="Initial contribution" 
                     value={this.state.initialContribution}
                     onChange={event => this.setState({initialContribution: event.target.value})}/>

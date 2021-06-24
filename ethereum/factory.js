@@ -3,7 +3,7 @@ import MoneyManagerFactory from './Build/MoneyManagerFactory.json';
 
 const instance = new web3.eth.Contract(
     JSON.parse(MoneyManagerFactory.interface),
-    '0x0ab06600f074480a355121d7d8b35CA6d6310252'
+    '0x80C8229AEF64d38452312be181a89Fc602102A28'
 );
 
 export default instance;

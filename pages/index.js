@@ -19,7 +19,8 @@ class managerIndex extends Component{
             description: (<Link route={`/managers/${address}`}>
             <a> View Manager </a>
             </Link>),
-            fluid: true
+            fluid: true,
+            style: {overflowWrap:'break-word'}
             };
         });
         return <Card.Group items={items} />;
