@@ -5,7 +5,6 @@
   "main": "index.js",
   "homepage": "https://teddypeters.github.io/pineMoneyManager",
   "scripts": {
-    
     "dev": "node server.js",
     "build": "next build",
     "prod_start": "NODE_ENV=production node server.js",
