@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://teddypeters.github.io/pineMoneyManager",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "node server.js"
+    
   },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ganache-cli": "^6.12.2",
+    "gh-pages": "^3.2.3",
     "mocha": "^8.3.2",
     "next": "^11.0.0",
     "next-routes": "^1.4.2",
